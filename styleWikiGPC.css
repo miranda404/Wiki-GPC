@@ -26,7 +26,7 @@
 
 body{
     background-image:url("Imagens/fundoWiki.jpg");
-    background-size: 1500px;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 50px;
 }
