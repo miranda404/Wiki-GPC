@@ -1,0 +1,136 @@
+/* Fundo de todas as Páginas */        
+body{        
+    background-image:url("Imagens/fundoWiki.jpg");        
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 50px;
+}
+
+/* CSS Dos Links Geral*/
+
+.containerDocs a:hover, 
+.containerDocs a:active,       
+.containerCriadores a:hover,
+.containerIndex a:hover,
+.containerIndex a:active,
+.containerCriadores a:active{
+    color:rgb(218, 81, 218)
+}
+
+.containerDocs a,
+.containerCriadores a,
+.containerIndex a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:aquamarine;
+    background-color: rgba(54, 54, 54, 0.89);   
+    border: 1px solid rgb(215, 137, 235);
+}
+
+/* CSS Da Página Principal */
+
+.containerIndex p,h2,ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    color: white;
+    background-color: rgba(54, 54, 54, 0.89);
+    border: 1px solid rgb(215, 137, 235); 
+}
+
+.containerIndex h2{
+    text-align: center;
+    font-size: x-large;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+}
+
+.containerIndex img{
+    display: block;
+    margin: auto;
+    max-width: 250px;
+}
+
+footer{
+    color: white;
+}
+
+.containerIndex h3,
+.containerIndex a{ 
+    background-color: transparent;
+    border: none;
+}
+
+.containerIndex ul{
+    padding-bottom: 10px;
+}
+
+/* CSS Da Página de Documentos */
+.containerDocs article{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(54, 54, 54, 0.89);   
+    border: 1px solid rgb(215, 137, 235);
+    margin-top: 15px;
+}
+
+.containerDocs h1{
+    margin-left: 10px;
+}
+
+.containerDocs{
+    font-size:medium;
+}
+
+.containerDocs a{
+    padding: 10px;
+}
+
+
+
+/* CSS Da Página dos Criadores */
+
+.Citacao{
+    font-size: 40;
+    color: white;
+    background-color: rgba(54, 54, 54, 0.89);
+    border: 1px solid rgb(215, 137, 235);
+    text-align: left;
+}
+
+.containerCriadores a{
+    padding: 10px;
+}
+
+.containerCriadores article, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    color: white;
+    background-color: rgba(54, 54, 54, 0.89);
+    border: 1px solid rgb(215, 137, 235); 
+}
+
+.containerCriadores article{
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.containerCriadores h2{
+    background-color: transparent;
+    border: none;
+}
+
+.containerCriadores h3{
+    text-align: center;
+    font-size:x-large;
+}
+
+.tituloComImagem {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre o título e a imagem */
+}
+
+.tituloComImagem img{
+    width: 50px;
+}
