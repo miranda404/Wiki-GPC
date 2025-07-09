@@ -134,3 +134,7 @@ footer{
 .tituloComImagem img{
     width: 50px;
 }
+
+.listaCriadores{
+    column-count: 3;    
+}
